@@ -1,0 +1,39 @@
+.hero{
+    height: 90vh;
+    background: url("Timages.jpg") center/cover no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.hero-content{
+    background: rgba(0,0,0,0.5);
+    padding: 25px;
+    border-radius: 10px;
+}
+
+/* Smooth Scrolling */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Destination Cards */
+.card {
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+/* Section Headings */
+h2 {
+    font-weight: bold;
+}
+
+/* Footer */
+footer p {
+    margin-bottom: 5px;
+}
